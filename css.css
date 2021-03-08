@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html {
+    background-image: linear-gradient(to bottom right, #000000, #414141);
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10%;
+    width: 60%;
+    height: 100%;
+    background-color: #505050;
+}
+
+.session1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.firstPart {
+    color: lightgray;
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolioInfo {
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolioImage {
+    float: left;
+    margin-left: 15px;
+    width: 150px;
+}
+
+.bio {
+    color: lightgray;
+    margin-left: 30px;
+    margin-right: 25px;
+    margin-top: 15px
+}
+
+.skills_row {
+    margin-top: 10px;
+}
+
+.caption {
+    color: lightgray;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    margin-bottom: 4px;
+}
+
+.progressbar {
+    background-color: #E5E5E5;
+    display: block;
+    height: 15px;
+    width: 100%;
+}
+
+.progress {
+    display: block;
+    height: 15px;
+    overflow: hidden;
+    position: relative;
+    text-align: right;
+    width: 0;
+}
+
+.value {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    margin-right: 2px;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+}
+
+.blue {
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+
+.aqua {
+    background-color: #3eadcf;
+    background-image: linear-gradient(315deg, #3eadcf 0%, #abe9cd 74%);
+}
+
+.green {
+    background-color: #00b712;
+    background-image: linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+}
+
+.yellow {
+    background-color: #fbb034;
+    background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+}
+
+.red {
+    background-color: #f5d020;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+}
+
+.progSkills {
+    padding-top: 1px;
+    float: right;
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+.firstWidget {
+    margin-right: 30px;
+}
+
+.session2 {
+    float: right;
+}
+
+.session3 {
+    float: left;
+    margin-left: 30px;
+    width: 60%;
+}
+
+.collapse {
+    display: none;
+}
+
+.collapse.in {
+    display: block;
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition-property: height, visibility;
+    transition-duration: .35s;
+    transition-timing-function: ease
+}
+
+.panel-title a {
+    background-color: #787878;
+    color: white;
+    width: 80%;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.panel-title a:hover,
+.panel-title a:active {
+    background-color: #A0A0A0;
+}
